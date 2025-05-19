@@ -1,9 +1,9 @@
-# Entorno Virtual
+# Virtual Environment
 venv/
 .env/
 *.env
 
-# Caché de Python
+# Python Cache
 __pycache__/
 *.pyc
 *.pyo
@@ -12,7 +12,7 @@ __pycache__/
 *.pyd
 *.pdb
 
-# Configuración de Playwright
+# Playwright Configuration
 playwright/.cache/
 test-results/
 trace.zip
@@ -20,13 +20,13 @@ report.zip
 videos/
 screenshots/
 
-# Archivos temporales
+# Temporary Files
 *.log
 *.tmp
 *.bak
 *.swp
 
-# Configuración del sistema
+# System Configuration
 .DS_Store
 Thumbs.db
 
@@ -39,9 +39,10 @@ pytest_cache/
 *.cover
 *.log
 
-# Archivos de Excel de prueba
+# Ignore all .xlsx files except challenge.xlsx
 src/resource/data/*.xlsx
+!src/resource/data/challenge.xlsx
 
-# Archivos de configuración del entorno
+# IDE Configuration Files
 .idea/
 .vscode/
