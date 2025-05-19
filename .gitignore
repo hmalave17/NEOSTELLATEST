@@ -1,0 +1,47 @@
+# Entorno Virtual
+venv/
+.env/
+*.env
+
+# Caché de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+*.pyd
+*.pdb
+
+# Configuración de Playwright
+playwright/.cache/
+test-results/
+trace.zip
+report.zip
+videos/
+screenshots/
+
+# Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Configuración del sistema
+.DS_Store
+Thumbs.db
+
+# Pytest
+.cache/
+htmlcov/
+.tox/
+pytest_cache/
+.coverage
+*.cover
+*.log
+
+# Archivos de Excel de prueba
+src/resource/data/*.xlsx
+
+# Archivos de configuración del entorno
+.idea/
+.vscode/
